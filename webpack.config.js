@@ -20,8 +20,8 @@ module.exports={
         // REGLAS PARA TRABAJAR CON WEBPACK
         rules : [
             {
-                test: /\.m?js$/, // LEE LOS ARCHIVOS CON EXTENSION .JS,
-                exclude: /node_modules/, // IGNORA LOS MODULOS DE LA CARPETA
+                test: /\.m?js$/, // lecturar archivos con la extension => .JS,
+                exclude: /node_modules/, // Excluye o ignora las carpetas del modulo node_modules
                 use: {
                     loader: 'babel-loader'
                 }
